@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Serialization",
+            "request": "launch",
+            "mainClass": "Serialization",
+            "projectName": "Serialization_a62c4301"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+//Using LinkedList class and its functions that work with linked lists
+public class Main {
+
+  public static void main(String[] args) {
+    LinkedList node1 = new LinkedList("b");
+
+    node1.add("c");
+    node1.add("d");
+    node1.add("e");
+
+    node1.display();
+    
+    node1.insert("a",0);
+    node1.display();
+    int length = node1.length();
+    System.out.println("Length is " + length);
+    node1.remove(2);
+    node1.remove(1);
+    node1.remove(1);
+    node1.remove(1);
+    node1.remove(0);
+    node1.display();
+
+  }
+}// class
